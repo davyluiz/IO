@@ -2,7 +2,7 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-folder_path = '' # Diretório de escuta
+folder_path = 'C:/IO'
 
 class MyHandler(FileSystemEventHandler):
     def on_created(self, event):
