@@ -14,6 +14,7 @@ root.geometry("500x500+420+120")  # width x height + x + y
 text = Label(root, text="INICIALIZANDO INTERFACE", bd=0)
 text.pack()
 
+
 # text2 = Label(root, text="Snd label", bd=0)
 # text2.pack()
 root.mainloop()
